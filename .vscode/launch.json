@@ -9,7 +9,8 @@
       "args": [
         "-l",
         "-q",
-        "hsimple.C+g"
+        "hsimple.C+g",
+        "slits.C+g"
       ],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
