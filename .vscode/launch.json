@@ -9,8 +9,9 @@
       "args": [
         "-l",
         "-q",
-        "hsimple.C+g",
-        "slits.C+g"
+        "macro1.C+g",
+        "slits.C+g",
+        "hsimple.C+g"
       ],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
