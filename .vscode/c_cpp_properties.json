@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${default}"
+                "${default}",
+                "/home/edmondium/root/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
