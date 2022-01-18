@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "multigraph.c": "cpp",
         "macro4.c": "cpp",
         "macro3.c": "cpp",
         "macro2.c": "cpp",
