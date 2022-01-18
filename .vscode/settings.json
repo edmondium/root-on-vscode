@@ -1,5 +1,7 @@
 {
     "files.associations": {
+        "macro2.c": "cpp",
+        "macro1.C": "cpp",
         "slits.C": "cpp",
         "hsimple.C": "cpp"
     }

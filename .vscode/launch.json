@@ -9,6 +9,7 @@
       "args": [
         "-l",
         "-q",
+        "macro2.c+g",
         "macro1.C+g",
         "slits.C+g",
         "hsimple.C+g"
