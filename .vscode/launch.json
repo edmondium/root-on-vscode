@@ -9,6 +9,7 @@
       "args": [
         "-l",
         "-q",
+        "macro6.c+g",
         "macro5.c+g",
         "multigraph.c+g",
         "macro4.c+g",
