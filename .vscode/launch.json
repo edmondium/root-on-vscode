@@ -9,6 +9,7 @@
       "args": [
         "-l",
         "-q",
+        "macro9.c+g",
         "macro8.c+g",
         "hstack.c+g",
         "macro7.c+g",
