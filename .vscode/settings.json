@@ -1,5 +1,7 @@
 {
     "files.associations": {
+        "write_to_file.c": "cpp",
+        "read_from_file.c": "cpp",
         "macro9.c": "cpp",
         "macro8.c": "cpp",
         "hstack.c": "cpp",

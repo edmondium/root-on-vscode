@@ -9,6 +9,8 @@
       "args": [
         "-l",
         "-q",
+        "read_from_file.c+g",
+        "write_to_file.c+g",
         "macro9.c+g",
         "macro8.c+g",
         "hstack.c+g",
