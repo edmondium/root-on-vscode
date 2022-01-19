@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "macro8.c": "cpp",
         "hstack.c": "cpp",
         "macro7.c": "cpp",
         "macro6.c": "cpp",
