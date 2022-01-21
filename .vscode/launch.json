@@ -9,6 +9,7 @@
       "args": [
         "-l",
         "-q",
+        "write_ntuple_to_file_advanced.c+g",
         "read_ntuple_from_file.c+g",
         "write_ntuple_to_file.c+g",
         "read_from_file.c+g",
