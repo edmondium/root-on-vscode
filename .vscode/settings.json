@@ -1,5 +1,8 @@
 {
     "files.associations": {
+        "RunMySelector.c": "cpp",
+        "MySelector.h": "cpp",
+        "makeSelector.c": "cpp",
         "read_ntuple_with_chain.c": "cpp",
         "write_ntuple_to_file_advanced.c": "cpp",
         "read_ntuple_from_file.c": "cpp",
@@ -18,6 +21,7 @@
         "macro2.c": "cpp",
         "macro1.C": "cpp",
         "slits.C": "cpp",
-        "hsimple.C": "cpp"
+        "hsimple.C": "cpp",
+        "MySelector.C": "cpp"
     }
 }

@@ -1,0 +1,144 @@
+// Do NOT change. Changes will be lost next time file is generated
+
+#define R__DICTIONARY_FILENAME dIhomedIedmondiumdIrootmIonmIvscodedIMySelector_C_ACLiC_dict
+#define R__NO_DEPRECATION
+
+/*******************************************************************/
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+#define G__DICTIONARY
+#include "RConfig.h"
+#include "TClass.h"
+#include "TDictAttributeMap.h"
+#include "TInterpreter.h"
+#include "TROOT.h"
+#include "TBuffer.h"
+#include "TMemberInspector.h"
+#include "TInterpreter.h"
+#include "TVirtualMutex.h"
+#include "TError.h"
+
+#ifndef G__ROOT
+#define G__ROOT
+#endif
+
+#include "RtypesImp.h"
+#include "TIsAProxy.h"
+#include "TFileMergeInfo.h"
+#include <algorithm>
+#include "TCollectionProxyInfo.h"
+/*******************************************************************/
+
+#include "TDataMember.h"
+
+// The generated code does not explicitly qualify STL entities
+namespace std {} using namespace std;
+
+// Header files passed as explicit arguments
+#include "/home/edmondium/root-on-vscode/./MySelector.C"
+
+// Header files passed via #pragma extra_include
+
+namespace ROOT {
+   static void *new_MySelector(void *p = 0);
+   static void *newArray_MySelector(Long_t size, void *p);
+   static void delete_MySelector(void *p);
+   static void deleteArray_MySelector(void *p);
+   static void destruct_MySelector(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::MySelector*)
+   {
+      ::MySelector *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::MySelector >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("MySelector", ::MySelector::Class_Version(), "MySelector.h", 22,
+                  typeid(::MySelector), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &::MySelector::Dictionary, isa_proxy, 4,
+                  sizeof(::MySelector) );
+      instance.SetNew(&new_MySelector);
+      instance.SetNewArray(&newArray_MySelector);
+      instance.SetDelete(&delete_MySelector);
+      instance.SetDeleteArray(&deleteArray_MySelector);
+      instance.SetDestructor(&destruct_MySelector);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::MySelector*)
+   {
+      return GenerateInitInstanceLocal((::MySelector*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::MySelector*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+} // end of namespace ROOT
+
+//______________________________________________________________________________
+atomic_TClass_ptr MySelector::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+const char *MySelector::Class_Name()
+{
+   return "MySelector";
+}
+
+//______________________________________________________________________________
+const char *MySelector::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::MySelector*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+int MySelector::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::MySelector*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+TClass *MySelector::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::MySelector*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+TClass *MySelector::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::MySelector*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+void MySelector::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class MySelector.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(MySelector::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(MySelector::Class(),this);
+   }
+}
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_MySelector(void *p) {
+      return  p ? new(p) ::MySelector : new ::MySelector;
+   }
+   static void *newArray_MySelector(Long_t nElements, void *p) {
+      return p ? new(p) ::MySelector[nElements] : new ::MySelector[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_MySelector(void *p) {
+      delete ((::MySelector*)p);
+   }
+   static void deleteArray_MySelector(void *p) {
+      delete [] ((::MySelector*)p);
+   }
+   static void destruct_MySelector(void *p) {
+      typedef ::MySelector current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::MySelector
+

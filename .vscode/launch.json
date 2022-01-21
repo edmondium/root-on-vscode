@@ -9,6 +9,9 @@
       "args": [
         "-l",
         "-q",
+        "RunMySelector.C+g",
+        "MySelector.C+g",
+        "makeSelector.c+g",
         "read_ntuple_with_chain.c+g",
         "write_ntuple_to_file_advanced.c+g",
         "read_ntuple_from_file.c+g",
