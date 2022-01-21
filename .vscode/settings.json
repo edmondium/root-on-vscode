@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "read_ntuple_with_chain.c": "cpp",
         "write_ntuple_to_file_advanced.c": "cpp",
         "read_ntuple_from_file.c": "cpp",
         "write_ntuple_to_file.c": "cpp",
