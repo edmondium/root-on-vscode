@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "write_ntuple_to_file.c": "cpp",
         "write_to_file.c": "cpp",
         "read_from_file.c": "cpp",
         "macro9.c": "cpp",
