@@ -2,6 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "args": [
+        "macro3.py",
+        "graph.py"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
@@ -9,7 +20,8 @@
       "args": [
         "-l",
         "-q",
-        "RunMySelector.C+g",
+        "TGraphFit.c+g",
+        "RunMySelector.c+g",
         "MySelector.C+g",
         "makeSelector.c+g",
         "read_ntuple_with_chain.c+g",
