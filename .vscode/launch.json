@@ -5,7 +5,7 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "/home/edmondium/root/bin/root.exe",
+      "program": "/home/edmondium/root_install/bin/root.exe",
       "args": [
         "-l",
         "-q",

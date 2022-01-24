@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${default}",
-                "/home/edmondium/root/include"
+                "/home/edmondium/root_install/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
