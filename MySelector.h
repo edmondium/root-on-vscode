@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////
 // This class has been automatically generated on
-// Mon Jan 24 14:56:29 2022 by ROOT version 6.27/01
+// Fri Jan 28 15:38:40 2022 by ROOT version 6.27/01
 // from TTree cond_data/Example N-Tuple
 // found on file: conductivity_experiment.root
 //////////////////////////////////////////////////////////
